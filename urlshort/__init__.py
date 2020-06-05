@@ -1,6 +1,6 @@
 from flask import Flask
 
-def create_app():
+def create_app(test_config=None):
     app = Flask(__name__)
     app.secret_key='ade2r43fret545h4y3t45u5u4645y'
 
