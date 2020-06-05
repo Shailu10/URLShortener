@@ -1,1 +1,1 @@
-web: gunicorn urlshort:urlshort
+web: gunicorn __init__:app
